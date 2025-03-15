@@ -9,6 +9,7 @@ import MainPage from "./components/MainPage";
 import Profile from "./components/Profile";
 import StaffMainPage from "./pages/StaffMainPage";
 import BillManagePage from "./components/staff/BillManagePage";
+import ChatPage from "./pages/ChatPage"; 
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="/resident/invoices" element={<ResidentInvoiceList />} />
         <Route path="/manage_landing_page" element={<StaffMainPage/>}/>
         <Route path="/bill_manage" element={<BillManagePage/>}/>
+        <Route path="/chat" element={<ChatPage/>}/> {/* Thêm route cho trang chat */}
       </Routes>
     </Router>
   );

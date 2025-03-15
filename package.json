@@ -8,11 +8,13 @@
     "@mui/icons-material": "^6.4.5",
     "@mui/material": "^6.4.5",
     "@payos/node": "^1.0.10",
+    "@stomp/stompjs": "^7.0.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
     "qrcode.react": "^4.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -20,6 +22,7 @@
     "react-qr-code": "^2.0.15",
     "react-router-dom": "^7.2.0",
     "react-scripts": "5.0.1",
+    "sockjs-client": "^1.6.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
